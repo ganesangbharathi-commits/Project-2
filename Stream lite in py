@@ -1,0 +1,17 @@
+st.form("my_form"):
+    name = st.text_input("Name")
+    submit = st.form_submit_button("Submit")
+4. Machine Learning Integration
+Streamlit works perfectly with:
+
+Scikit-learn
+TensorFlow
+PyTorch
+Pandas
+NumPy
+You can upload a model and make predictions directly from the UI.
+
+5. Auto Reload
+Whenever you save your Python file, Streamlit automatically refreshes the app in the browser.
+This makes development very fast and smooth.
+
